@@ -29,7 +29,7 @@ def prediction_with_model(model,image_path):
 def about():
     if request.method == 'POST':
         # data = request.get_json()
-        model = tf.keras.models.load_model("./model")
+        model = tf.keras.models.load_model("./modelnew2")
         response = requests.get(request.form.get('picture'))
         # response = requests.get('https://5.imimg.com/data5/NS/VE/MY-38748036/designer-midi-top-500x500.jpg')
         with open('image.jpg', 'wb') as f:
