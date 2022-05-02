@@ -1,4 +1,4 @@
-GET https://wearz-cloth-pred-algorithm.herokuapp.com/identify-picture
+POST https://wearz-cloth-pred-algorithm.herokuapp.com/identify-picture
 Content-Type: application/json
 
 {
