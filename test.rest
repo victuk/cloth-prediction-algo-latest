@@ -1,0 +1,6 @@
+GET https://wearz-cloth-pred-algorithm.herokuapp.com/identify-picture
+Content-Type: application/json
+
+{
+    "picture": "https://cdn.cliqueinc.com/posts/287311/best-casual-dress-trends-287311-1589816733079-image.700x0c.jpg"
+}
