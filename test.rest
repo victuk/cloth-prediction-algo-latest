@@ -1,4 +1,4 @@
-POST https://heroic-oarlock-350310.appspot.com/identify-picture
+POST https://heroic-oarlock-350310.wn.r.appspot.com/identify-picture
 Content-Type: application/json
 
 {
