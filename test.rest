@@ -1,4 +1,4 @@
-POST https://accounts.google.com/o/oauth2/v2/auth?authuser=1&client_id=618104708054-m0mqlm35l2ahieavnib6emtan2k95ps9.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fssh.cloud.google.com%2Fdevshell%2Fgateway%2Foauth&response_type=code&scope=email&state=eyJ0b2tlbiI6InhuckZ5QzJlQXdfV2Rfb0dPMERjSnciLCJ0YXJnZXRfaG9zdCI6IjUwMDAtOTVmMGYyMjctNTg5Yy00OTQ4LTgzNGMtOGRlZTdjNmUzZTdiLmNzLWV1cm9wZS13ZXN0MS1vbnNlLmNsb3Vkc2hlbGwuZGV2IiwiYXV0aHVzZXIiOiIifQ/identify-picture
+POST https://heroic-oarlock-350310.appspot.com/identify-picture
 Content-Type: application/json
 
 {

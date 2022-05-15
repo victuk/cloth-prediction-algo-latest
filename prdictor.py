@@ -39,22 +39,22 @@ def about():
         # imgplot = plt.imshow(os.path.abspath(os.getcwd()) + '/image.jpg')
         if prediction == 0:
             return jsonify({
-                "pictureLink": request.form.get('picture'),
+                "pictureLink": request.get_json()["picture"],
                 "pictureType": "casual"
                 })
         elif prediction == 1:
             return jsonify({
-                "pictureLink": request.form.get('picture'),
+                "pictureLink": request.get_json()["picture"],
                 "pictureType": "offical"
                 })
         elif prediction == 2:
             return jsonify({
-                "pictureLink": request.form.get('picture'),
+                "pictureLink": request.get_json()["picture"],
                 "pictureType": "sports"
                 })
         else:
             return jsonify({
-                "pictureLink": request.form.get('picture'),
+                "pictureLink": request.get_json()["picture"],
                 "pictureType": "unknown"
                 })
     return 'This is a get request'
