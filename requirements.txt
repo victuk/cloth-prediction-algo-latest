@@ -1,6 +1,6 @@
 Flask==2.0.3
 gunicorn==20.1.0
-keras==2.8.0
+keras==2.6.0
 requests==2.27.1
 numpy==1.19.5
 tensorflow==2.6.2
