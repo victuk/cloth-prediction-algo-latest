@@ -1,5 +1,6 @@
 import tensorflow as tf
 import keras
+import time
 import matplotlib.pyplot as plt
 import numpy as np
 from tensorflow.keras.layers import Conv2D, Input, Dense, MaxPool2D, BatchNormalization, GlobalAveragePooling2D,Flatten
@@ -44,6 +45,11 @@ if __name__ == "__main__":
                   batch_size=batch_size,
                   validation_data = val_generator,
                   callbacks= [chk_saver] )
+
+        # ts = int(time.time())
+        # file_path = f"tf-models/img_classifier/{ts}/"
+        # model.save(filepath=file_path, save_format='tf')
+
     Test = True
     if Test:
         model =tf.keras.models.load_model('./model')
@@ -52,6 +58,7 @@ if __name__ == "__main__":
         model.evaluate(val_generator)
         print("evaluating test set : ")
         model.evaluate(test_generator)
+
 
 
 
